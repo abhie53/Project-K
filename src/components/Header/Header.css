@@ -1,0 +1,12 @@
+:root {
+    --bg-header-fc: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--bg-header-fc);
+    color: #fff;
+  }

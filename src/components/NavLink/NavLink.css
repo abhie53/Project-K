@@ -1,0 +1,16 @@
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }

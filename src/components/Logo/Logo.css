@@ -1,0 +1,11 @@
+.logo img {
+    height: 30px;
+}
+
+.logo-img {
+    height: fit-content;
+    width: fit-content;
+    scale: 1.9;
+    margin-top: 8px;
+    margin-left: 50px
+}

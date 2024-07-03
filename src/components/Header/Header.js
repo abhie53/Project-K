@@ -1,9 +1,12 @@
 import './Header.css'
+import Logo from '../Logo/Logo';
+import NavLinks from '../NavLink/NavLink';
 
 const Header = () => {
     return (
-        <div>
-
+        <div className="header">
+            <Logo />
+            <NavLinks />
         </div>
     )
 }
