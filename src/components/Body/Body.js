@@ -1,10 +1,17 @@
 import './Body.css'
+import { Routes, Route} from 'react-router-dom';
+import Home from '../NavigationComponents/Home';
+import ContactUs from '../NavigationComponents/ContactUs';
 
 const Body = () => {
     return (
-        <div>
-            <h1>This is body</h1>
-        </div>
+      
+        <Routes>
+            <Route path='/' element={<Home/>}></Route>
+            <Route path='/contact' element={<ContactUs/>}></Route>
+            
+        </Routes>
+      
     )
 }
 
