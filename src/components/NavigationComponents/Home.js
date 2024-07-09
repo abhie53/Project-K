@@ -6,7 +6,7 @@ const Home = () => {
         <div className="home-container">
             <div>
                 <h1>{Message.greet}</h1>
-                <p>A Division Of Sieben Healthcare</p>
+                <p>{Message.homepage_mgs}</p>
             </div>
             <aside className="side-info">
                 <img className='logo-img' src="https://i.ibb.co/DCSGCJ0/brand-Logo.png" alt="Logo" />

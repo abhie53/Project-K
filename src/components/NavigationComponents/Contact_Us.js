@@ -5,33 +5,34 @@ import Message from "./Message/Message";
 import phoneIcon from './../images/phone.png';
 import emailIcon from './../images/email.png';
 import addressIcon from './../images/location.png'
+import Input from './../commonComponents/Input';
 const Contact_Us = () => {
     return (
         <div className="contact_page_container">
             <div className="message-container">
-                <p className="message-text">Get In Touch</p>
-                <h1>Let's Chat, Reach Out To Us</h1>
+                <p className="message-text">{Message.contactus_greet}</p>
+                <h1>{Message.contactus_heading}</h1>
                 <p className="message">{Message.contactus_msg}</p>
                 <hr />
                 <div className="input-container">
                     <div className="name-container">
                         <label htmlFor="firstname">First Name</label>
-                        <input type="text" id="firstname" placeholder="First Name" />
+                        <Input type="text" id="firstname" placeholder="First Name" className="full-width-input" style={{ width: '100%' }}></Input>
                         <label htmlFor="lastname">Last Name</label>
-                        <input type="text" id="lastname" placeholder="Last Name" />
+                        <Input type="text" id="lastname" placeholder="Last Name" className="full-width-input" style={{ width: '100%' }}></Input>
                     </div>
                     <div className="email">
                         <label htmlFor="email">Email</label>
-                        <input type="email" id="email" placeholder="Email" />
+                        <Input type="email" id="email" placeholder="Email"  style={{ width: '100%' }}></Input>
                     </div>
 
                     <div className="subject">
                         <label htmlFor="subject">Subject</label>
-                        <input type="text" id="subject" placeholder="Subject" />
+                        <Input type="text" id="subject" placeholder="subject" style={{width: '100%'}}></Input>
                     </div>
 
                     <label htmlFor="message">Message</label>
-                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                    <Input name="message" id="message" placeholder="Message" rows={3} cols={50}></Input>
                 </div>
                 <Button>SUBMIT</Button>
             </div>
@@ -39,7 +40,7 @@ const Contact_Us = () => {
                 <h1>Contact Us</h1>
                 <div className="contact-info">
                     <div>
-                        <h3><img src={emailIcon} alt="Email Icon" className="icon" /> Email</h3>
+                        <h3><img src={emailIcon} alt="Email Icon" rows={5} className="icon" /> Email</h3>
                         <p>{Message.EmailId}</p>
                     </div>
                     <div>

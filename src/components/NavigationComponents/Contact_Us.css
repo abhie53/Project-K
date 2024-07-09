@@ -37,6 +37,7 @@
     border-bottom: 2px solid black;
 }
 
+
 .input-container label {
     font-size: large;
     font-weight: bold;
@@ -46,6 +47,9 @@
     display: flex;
     justify-content: space-between;
 }
+.input-container input, textarea:focus {
+    outline: none;
+  }
 
 .name-container label, .name-container input {
     width: 48%;
