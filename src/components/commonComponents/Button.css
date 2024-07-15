@@ -1,18 +1,18 @@
-.button{
-    font: inherit;
-    padding: 0.5rem 1.5rem;
-    border: 1px solid #ff0055;
-    border-radius: 4px;
-    background: #ff0055;
-    color: white;
-    cursor: pointer;
-    margin-right: 1rem;
-    text-decoration: none;
-    display: inline-block;
+.button {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #ff0055;
+  border-radius: 4px;
+  background: #ff0055;
+  color: white;
+  cursor: pointer;
+  margin-right: 1rem;
+  text-decoration: none;
+  display: inline-block;
 }
 
-.button:focus{
-    outline: none;
+.button:focus {
+  outline: none;
 }
 
 .button:hover,
@@ -22,17 +22,17 @@
 }
 
 .button--small {
-    font-size: 0.8rem;
-  }
-  
-  .button--big {
-    font-size: 1.5rem;
-  }
+  font-size: 0.8rem;
+}
+
+.button--big {
+  font-size: 1.5rem;
+}
 
 
-.button--inverse{
-    background: transparent;
-    color: #ff0055;
+.button--inverse {
+  background: transparent;
+  color: #ff0055;
 }
 
 .button--inverse:hover,

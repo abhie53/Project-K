@@ -5,85 +5,85 @@ import For7 from './../../images/For7.jpeg';
 
 const ProductsData = [
     {
-        title : "Zious",
+        title: "Zious",
         img: svytone,
-        about:'It is used for hair growth',
-        content:[
-            {name:"Haridrakhand" , weight:"100mg"},
-            {name:"manjishtha" , weight:"100mg"},
-            {name:"Neem" , weight:"100mg"},
-            {name:"Khadir" , weight:"50mg"},
+        about: 'It is used for hair growth',
+        content: [
+            { name: "Haridrakhand", weight: "100mg" },
+            { name: "manjishtha", weight: "100mg" },
+            { name: "Neem", weight: "100mg" },
+            { name: "Khadir", weight: "50mg" },
         ]
     },
     {
-        title : "Sitogam",
+        title: "Sitogam",
         img: sitogam,
-        about:'It is used for ',
-        content:[
-            {name:"Kaishor Guggul" , weight:"100mg"},
-            {name:"Guduchi" , weight:"100mg"},
-            {name:"Punarnava Ghan" , weight:"100mg"},
-            {name:"Methi" , weight:"50mg"},
+        about: 'It is used for ',
+        content: [
+            { name: "Kaishor Guggul", weight: "100mg" },
+            { name: "Guduchi", weight: "100mg" },
+            { name: "Punarnava Ghan", weight: "100mg" },
+            { name: "Methi", weight: "50mg" },
         ]
     },
     {
-        title : "For7",
+        title: "For7",
         img: For7,
-        about:'Stimulation  the immune system'
+        about: 'Stimulation  the immune system'
     },
     {
-        title : "Zious",
+        title: "Zious",
         img: svytone,
-        about:'It is used for hair growth',
-        content:[
-            {name:"Haridrakhand" , weight:"100mg"},
-            {name:"manjishtha" , weight:"100mg"},
-            {name:"Neem" , weight:"100mg"},
-            {name:"Khadir" , weight:"50mg"},
+        about: 'It is used for hair growth',
+        content: [
+            { name: "Haridrakhand", weight: "100mg" },
+            { name: "manjishtha", weight: "100mg" },
+            { name: "Neem", weight: "100mg" },
+            { name: "Khadir", weight: "50mg" },
         ]
     },
     {
-        title : "Sitogam",
+        title: "Sitogam",
         img: sitogam,
-        about:'It is used for ',
-        content:[
-            {name:"Kaishor Guggul" , weight:"100mg"},
-            {name:"Guduchi" , weight:"100mg"},
-            {name:"Punarnava Ghan" , weight:"100mg"},
-            {name:"Methi" , weight:"50mg"},
+        about: 'It is used for ',
+        content: [
+            { name: "Kaishor Guggul", weight: "100mg" },
+            { name: "Guduchi", weight: "100mg" },
+            { name: "Punarnava Ghan", weight: "100mg" },
+            { name: "Methi", weight: "50mg" },
         ]
     },
     {
-        title : "For7",
+        title: "For7",
         img: For7,
-        about:'Stimulation  the immune system'
+        about: 'Stimulation  the immune system'
     },
     {
-        title : "Zious",
+        title: "Zious",
         img: svytone,
-        about:'It is used for hair growth',
-        content:[
-            {name:"Haridrakhand" , weight:"100mg"},
-            {name:"manjishtha" , weight:"100mg"},
-            {name:"Neem" , weight:"100mg"},
-            {name:"Khadir" , weight:"50mg"},
+        about: 'It is used for hair growth',
+        content: [
+            { name: "Haridrakhand", weight: "100mg" },
+            { name: "manjishtha", weight: "100mg" },
+            { name: "Neem", weight: "100mg" },
+            { name: "Khadir", weight: "50mg" },
         ]
     },
     {
-        title : "Sitogam",
+        title: "Sitogam",
         img: sitogam,
-        about:'It is used for ',
-        content:[
-            {name:"Kaishor Guggul" , weight:"100mg"},
-            {name:"Guduchi" , weight:"100mg"},
-            {name:"Punarnava Ghan" , weight:"100mg"},
-            {name:"Methi" , weight:"50mg"},
+        about: 'It is used for ',
+        content: [
+            { name: "Kaishor Guggul", weight: "100mg" },
+            { name: "Guduchi", weight: "100mg" },
+            { name: "Punarnava Ghan", weight: "100mg" },
+            { name: "Methi", weight: "50mg" },
         ]
     },
     {
-        title : "For7",
+        title: "For7",
         img: For7,
-        about:'Stimulation  the immune system'
+        about: 'Stimulation  the immune system'
     }
 ]
 

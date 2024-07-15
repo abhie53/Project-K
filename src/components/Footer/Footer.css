@@ -1,19 +1,27 @@
-.main-footer{
+.main-footer {
     background-color: #333;
     color: white;
 }
 
-.col .list-unstyled{
+.col .list-unstyled {
     list-style: none;
 }
 
-.row{
+.col {
+    max-width: auto;
+}
+
+.company-address {
+    max-width: 350px;
+}
+
+.row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.icon{
+.icon {
     width: 25px;
     height: 25px;
     border-radius: 30%;
