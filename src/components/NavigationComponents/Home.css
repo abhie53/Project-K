@@ -1,8 +1,3 @@
-body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-}
-
 .home-container {
     display: flex;
     flex-direction: column;
@@ -20,10 +15,6 @@ body {
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 40px;
-}
-.main-content {
-
-
 }
 
 .main-heading {

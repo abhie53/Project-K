@@ -5,7 +5,7 @@ const Input = (props) => {
     if (props.type) {
         return (
             <div>
-                <input type={type} id={id} placeholder={placeholder} style={style}/>
+                <input type={type} id={id} placeholder={placeholder} style={style} />
             </div>
         )
     }

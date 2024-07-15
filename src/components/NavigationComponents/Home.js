@@ -22,7 +22,7 @@ const Home = () => {
                     <p>{Message.companisVision}</p>
                 </aside>
             </div>
-            
+
             <div className="partners">
                 <h2>Our Partners</h2>
                 <div className="partners-logo">
@@ -33,6 +33,11 @@ const Home = () => {
                     <img src={royal_nutricare} alt="royal_nutricare" />
                 </div>
             </div>
+
+            <div className="">
+
+            </div>
+
         </div>
     );
 }
