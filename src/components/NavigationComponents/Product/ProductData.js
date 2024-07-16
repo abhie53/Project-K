@@ -5,17 +5,17 @@ import ProductsData from "./ProductsData";
 import { CardStyled } from "./Card.styles";
 
 const ProductData = () => {
-    return (
+    return(
         <div className="product-data-container">
-            {
+               {
                 ProductsData.map((data) => {
-                    return (
-                        <div className="product-container">
+                    return(
+                       <div className="product-container">
                             <CardStyled data={data} />
-                        </div>
+                       </div>
                     )
                 })
-            }
+               }
         </div>
     )
 };

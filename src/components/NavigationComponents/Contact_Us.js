@@ -23,12 +23,12 @@ const Contact_Us = () => {
                     </div>
                     <div className="email">
                         <label htmlFor="email">Email</label>
-                        <Input type="email" id="email" placeholder="Email" style={{ width: '100%' }}></Input>
+                        <Input type="email" id="email" placeholder="Email"  style={{ width: '100%' }}></Input>
                     </div>
 
                     <div className="subject">
                         <label htmlFor="subject">Subject</label>
-                        <Input type="text" id="subject" placeholder="subject" style={{ width: '100%' }}></Input>
+                        <Input type="text" id="subject" placeholder="subject" style={{width: '100%'}}></Input>
                     </div>
 
                     <label htmlFor="message">Message</label>

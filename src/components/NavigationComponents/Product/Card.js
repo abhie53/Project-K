@@ -12,7 +12,7 @@ const Card = (props) => {
         <div className="tags">
           {content &&
             content.map((data) => {
-              return (
+              return(
                 <div className="tag">{data.name}</div>
               )
             })
