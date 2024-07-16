@@ -1,21 +1,18 @@
 import React from "react";
 import './ProductData.css';
 import ProductsData from "./ProductsData";
-
-import { CardStyled } from "./Card.styles";
-
+import Card from "./Card";
+import ProductCard from './ProductCard'
 const ProductData = () => {
     return(
         <div className="product-data-container">
-               {
+               {/* {
                 ProductsData.map((data) => {
                     return(
-                       <div className="product-container">
-                            <CardStyled data={data} />
-                       </div>
+                    <ProductCard data={data}/>
                     )
                 })
-               }
+               } */}
         </div>
     )
 };

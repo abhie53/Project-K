@@ -4,7 +4,7 @@ import './Button.css';
 const Button = (props) => {
     if (props.href) {
         return (
-            <a href={props.href} target={props.target || '_blank'} className={`button button--${props.size || "default"}  ${props.inverse && 'button--inverse'}`}>
+            <a href={props.href} className={`button button--${props.size || "default"}  ${props.inverse && 'button--inverse'}`}>
                 {props.children}
             </a>
         )
