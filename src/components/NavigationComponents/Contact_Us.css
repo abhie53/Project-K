@@ -1,10 +1,8 @@
 .contact_page_container {
-
     background: #96cede;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-
     height: 100vh;
     padding: 20px;
 }
