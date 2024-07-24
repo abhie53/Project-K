@@ -54,6 +54,19 @@ const Home = () => {
                 </div>
             </div>
 
+            <div className="faq">
+                <h1>Frequently Asked Questions</h1>
+                <div className="faq-item">
+                    <h2>What types of medicines do you manufacture?</h2>
+                    <p>We manufacture a wide range of medicines, including pain relief, antibiotics, and chronic disease management solutions.</p>
+                </div>
+                <div className="faq-item">
+                    <h2>How can I place an order?</h2>
+                    <p>You can place an order by contacting us through our website or by calling our customer service team.</p>
+                </div>
+            </div>
+
+
 
             <div className="partners">
                 <h2>Our Partners</h2>

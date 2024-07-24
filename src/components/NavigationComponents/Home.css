@@ -15,6 +15,11 @@
     background: transparent;
 }
 
+.faq{
+    color: white;
+    font-size: large;
+}
+
 .main-heading {
     font-size: 2.5em;
     color: #fff;
@@ -78,6 +83,10 @@
     text-align: center;
     margin-top: auto;
     width: 100%;
+    background: transparent;
+    color: #fff;
+    background-color: cadetblue;
+    margin-bottom: 15px;
 }
 
 
