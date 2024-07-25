@@ -4,7 +4,7 @@ const NavLinks = () => {
     return (
         <nav className="nav-links">
             <ul>
-                <li className="xd">
+                <li>
                     <Link to="/">Home</Link>
                 </li>
                 <li>
