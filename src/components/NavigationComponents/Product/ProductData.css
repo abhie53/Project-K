@@ -1,7 +1,7 @@
 .product-data-container {
     background-color: lightskyblue;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
