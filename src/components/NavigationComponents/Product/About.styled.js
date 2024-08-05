@@ -1,12 +1,9 @@
 import styled from "styled-components";
-
 import About from "../About";
-
 export const AboutStyled = styled(About)`
-   
    text-align: center;
    font-size: large;
-   margin: 20px;
+   
    .our-story-container{
     display: flex;
     flex-direction: row;
@@ -17,7 +14,7 @@ export const AboutStyled = styled(About)`
     border-radius: 10px;
    }
 
-   .out-team-container {
+    .our-team-container {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -45,5 +42,4 @@ img{
 img:hover{
     cursor: pointer;
 }
-
 `

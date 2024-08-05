@@ -1,4 +1,10 @@
-.button {
+import styled from "styled-components";
+import Button from "./Button";
+
+
+export const ButtonStyled = styled(Button)`
+ 
+ .button {
   font: inherit;
   padding: 0.5rem 1.5rem;
   border: 1px solid #ff0055;
@@ -40,18 +46,14 @@
   background: #ff0055;
 }
 
-.button--unstyled {
-  background-color: #5bc0de;
-    color: #000;
-    padding: 5px;
-    border-radius: 50%;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    text-decoration: none;
+.button--customStyled {
+ ${(props) => (
+    props.customStyled
+  )}
 }
 
 .button--unstyled:hover{
   background: none;
   text-decoration: underline;
 }
+`

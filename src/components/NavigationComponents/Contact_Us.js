@@ -1,6 +1,6 @@
 import React from "react";
 import './Contact_Us.css';
-import Button from './../commonComponents/Button';
+import { ButtonStyled } from "../commonComponents/Button.styled";
 import Message from "./Message/Message";
 import phoneIcon from './../images/phone.png';
 import emailIcon from './../images/email.png';
@@ -27,7 +27,7 @@ const Contact_Us = () => {
                     </div>
                     <Input name="message" id="message" placeholder="Message" rows={3} cols={50}></Input>
                 </div>
-                <Button>SUBMIT</Button>
+                <ButtonStyled>SUBMIT</ButtonStyled>
             </div>
             <div className="office-details">
                 <h1>Contact Us</h1>

@@ -10,7 +10,6 @@ const Body = () => {
             <Route path='/' element={<Home />}></Route>
             <Route path='/products' element={<ProductData />}></Route>
             <Route path='/contact' element={<ContactUs />}></Route>
-            <Route path='/services' element={<ContactUs />}></Route>
             <Route path='/about' element={<AboutStyled />}></Route>
         </Routes>
 
